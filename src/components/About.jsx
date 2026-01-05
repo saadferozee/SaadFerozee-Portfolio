@@ -63,16 +63,21 @@ const About = () => {
             <div className="space-y-6 text-gray-600 text-lg leading-relaxed">
               <p>
                 I am a <span className="font-semibold text-gray-900">Web Developer</span> specializing in modern frontend technologies. 
-                I work mainly with <span className="font-semibold text-blue-600">Next.js</span>, <span className="font-semibold text-blue-600">React.js</span> and <span className="font-semibold text-yellow-600">JavaScript</span> to build responsive, 
-                user-friendly web applications.
+                My journey into programming started with curiosity about how websites work, and it quickly became a passion that drives me every day.
               </p>
               <p>
-                Currently learning Next.js to build faster, SEO-friendly web applications, 
-                improve server-side rendering (SSR), and strengthen scalable frontend architecture.
+                I work mainly with <span className="font-semibold text-blue-600">Next.js</span>, <span className="font-semibold text-blue-600">React.js</span> and <span className="font-semibold text-yellow-600">JavaScript</span> to build responsive, 
+                user-friendly web applications. I love the challenge of turning complex problems into simple, beautiful solutions.
+              </p>
+              <p>
+                <span className="font-semibold text-gray-900">What I enjoy most:</span> Creating clean, maintainable code that not only works perfectly but is also easy for other developers to understand and build upon. I find great satisfaction in optimizing performance and creating smooth user experiences.
+              </p>
+              <p>
+                <span className="font-semibold text-gray-900">Beyond coding:</span> When I'm not programming, I enjoy exploring new technologies, reading tech blogs, and staying updated with the latest web development trends. I also love problem-solving challenges and contributing to open-source projects.
               </p>
               <p>
                 I strongly believe in <span className="font-semibold text-gray-900">clean code</span>, maintainable codebases, 
-                clear file structure, and well-written documentation.
+                clear file structure, and well-written documentation. My goal is to write code that tells a story.
               </p>
             </div>
 

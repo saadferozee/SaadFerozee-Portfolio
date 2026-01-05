@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FiGithub, FiLinkedin, FiMail, FiHeart, FiArrowUp } from 'react-icons/fi';
 import { FaFacebook } from 'react-icons/fa';
+import logo from '../assets/Ferozee-logo.png';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -27,9 +28,16 @@ const Footer = () => {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-3xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                Saad Ferozee
-              </h3>
+              <div className="flex items-center space-x-3 mb-4">
+                <img 
+                  src={logo} 
+                  alt="Saad Ferozee Logo" 
+                  className="h-12 w-auto"
+                />
+                <h3 className="text-3xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+                  Saad Ferozee
+                </h3>
+              </div>
               <p className="text-gray-300 text-lg leading-relaxed mb-6 max-w-md">
                 Frontend Developer passionate about creating beautiful, functional web experiences 
                 with modern technologies and clean code practices.

@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { FiMail, FiGithub, FiLinkedin, FiSend, FiPhone, FiMapPin } from 'react-icons/fi';
+import { FiMail, FiGithub, FiLinkedin, FiSend, FiPhone, FiMapPin, FiDownload } from 'react-icons/fi';
 import { FaFacebook } from 'react-icons/fa';
+import resume from '../assets/SaadFerozee-Resume .pdf';
 
 const Contact = () => {
   const ref = useRef(null);
@@ -20,6 +21,13 @@ const Contact = () => {
       ...formData,
       [e.target.name]: e.target.value
     });
+  };
+
+  const handleDownloadResume = () => {
+    const link = document.createElement('a');
+    link.href = resume;
+    link.download = 'Saad_Ferozee_Resume.pdf';
+    link.click();
   };
 
   const handleSubmit = (e) => {
@@ -127,7 +135,7 @@ const Contact = () => {
                 {/* Social Links */}
                 <div className="mt-10 pt-8 border-t border-gray-700">
                   <h4 className="text-xl font-semibold mb-6">Follow Me</h4>
-                  <div className="flex space-x-4">
+                  <div className="flex space-x-4 mb-6">
                     <a
                       href="https://github.com/saadferozee"
                       target="_blank"
@@ -153,6 +161,17 @@ const Contact = () => {
                       <FaFacebook size={24} className="group-hover:scale-110 transition-transform" />
                     </a>
                   </div>
+                  
+                  {/* Resume Download Button */}
+                  <motion.button
+                    onClick={handleDownloadResume}
+                    className="w-full inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-2xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl"
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.98 }}
+                  >
+                    <FiDownload className="mr-2" size={20} />
+                    Download Resume
+                  </motion.button>
                 </div>
               </div>
 

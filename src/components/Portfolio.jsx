@@ -13,74 +13,140 @@ const Portfolio = () => {
     {
       id: 1,
       title: 'E-Ticketing System Web App',
-      description: 'A comprehensive ticket buying and selling platform with admin-vendor functionalities. Built with modern web technologies for seamless user experience and real-time booking management.',
+      description: 'A comprehensive ticket buying and selling platform with admin-vendor functionalities.',
       longDescription: 'This full-stack application features user authentication, payment integration, real-time seat selection, and comprehensive admin dashboard for managing events and bookings.',
       technologies: ['React.js', 'Node.js', 'MongoDB', 'Express.js', 'Socket.io', 'Stripe'],
+      mainTech: 'React.js & Node.js',
       liveLink: '#',
       githubLink: '#',
       category: 'fullstack',
       featured: true,
-      image: '/api/placeholder/600/400'
+      image: '/api/placeholder/600/400',
+      challenges: [
+        'Implementing real-time seat selection with Socket.io',
+        'Managing complex state for booking flow',
+        'Integrating secure payment processing with Stripe'
+      ],
+      improvements: [
+        'Add mobile app version using React Native',
+        'Implement advanced analytics dashboard',
+        'Add multi-language support'
+      ]
     },
     {
       id: 2,
       title: 'Pet Adoption with E-Commerce',
-      description: 'Fully functional E-commerce website with database integration. Features pet adoption services with complete shopping cart functionality and payment processing.',
+      description: 'Fully functional E-commerce website with database integration featuring pet adoption services.',
       longDescription: 'A compassionate platform connecting pets with loving families, featuring advanced search filters, adoption process management, and integrated e-commerce for pet supplies.',
       technologies: ['React.js', 'Firebase', 'Tailwind CSS', 'JavaScript', 'Stripe API'],
+      mainTech: 'React.js & Firebase',
       liveLink: '#',
       githubLink: '#',
       category: 'frontend',
       featured: true,
-      image: '/api/placeholder/600/400'
+      image: '/api/placeholder/600/400',
+      challenges: [
+        'Creating intuitive adoption workflow',
+        'Managing complex pet data with Firebase',
+        'Implementing advanced search and filtering'
+      ],
+      improvements: [
+        'Add video call feature for virtual pet meetings',
+        'Implement AI-powered pet matching',
+        'Add veterinary appointment booking'
+      ]
     },
     {
       id: 3,
       title: 'Pet Care Service Website',
-      description: 'Online vet service booking website with private routing and secure login system. Responsive design with modern UI/UX and appointment management.',
+      description: 'Online vet service booking website with private routing and secure login system.',
       longDescription: 'Professional veterinary service platform with appointment scheduling, medical records management, and secure patient portal for pet owners.',
       technologies: ['React.js', 'Firebase Auth', 'CSS3', 'JavaScript', 'React Router'],
+      mainTech: 'React.js & Firebase',
       liveLink: '#',
       githubLink: '#',
       category: 'frontend',
       featured: false,
-      image: '/api/placeholder/600/400'
+      image: '/api/placeholder/600/400',
+      challenges: [
+        'Implementing secure authentication system',
+        'Creating responsive appointment calendar',
+        'Managing user roles and permissions'
+      ],
+      improvements: [
+        'Add telemedicine video consultations',
+        'Implement automated appointment reminders',
+        'Add prescription management system'
+      ]
     },
     {
       id: 4,
       title: 'Mock NGO Website',
-      description: 'Website with basic functionalities built using vanilla JavaScript. Clean design with interactive elements, donation system, and responsive layout.',
+      description: 'Website with basic functionalities built using vanilla JavaScript with donation system.',
       longDescription: 'Non-profit organization website featuring donation management, volunteer registration, and event coordination with clean, accessible design.',
       technologies: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap', 'PHP'],
+      mainTech: 'Vanilla JavaScript',
       liveLink: '#',
       githubLink: '#',
       category: 'web',
       featured: false,
-      image: '/api/placeholder/600/400'
+      image: '/api/placeholder/600/400',
+      challenges: [
+        'Creating interactive donation forms',
+        'Implementing volunteer management system',
+        'Ensuring accessibility compliance'
+      ],
+      improvements: [
+        'Migrate to React.js for better maintainability',
+        'Add payment gateway integration',
+        'Implement volunteer tracking dashboard'
+      ]
     },
     {
       id: 5,
       title: 'E-Commerce Website',
-      description: 'Basic layout and responsive web design using HTML and CSS. Focus on clean design principles, mobile-first approach, and user-friendly interface.',
+      description: 'Modern e-commerce template with product catalog and shopping cart functionality.',
       longDescription: 'Modern e-commerce template with product catalog, shopping cart functionality, and responsive design optimized for all devices.',
       technologies: ['HTML5', 'CSS3', 'Bootstrap', 'JavaScript', 'jQuery'],
+      mainTech: 'HTML5 & CSS3',
       liveLink: '#',
       githubLink: '#',
       category: 'web',
       featured: false,
-      image: '/api/placeholder/600/400'
+      image: '/api/placeholder/600/400',
+      challenges: [
+        'Creating responsive product grid layout',
+        'Implementing shopping cart functionality',
+        'Optimizing for mobile devices'
+      ],
+      improvements: [
+        'Add React.js for dynamic functionality',
+        'Implement user authentication',
+        'Add product search and filtering'
+      ]
     },
     {
       id: 6,
       title: 'Personal Portfolio',
-      description: 'Basic layout of a Portfolio website using HTML and CSS. Demonstrates fundamental web development skills and modern design principles.',
+      description: 'Clean and professional portfolio showcasing web development skills.',
       longDescription: 'Clean and professional portfolio showcasing web development skills with smooth animations and responsive design.',
       technologies: ['HTML5', 'CSS3', 'JavaScript', 'SASS'],
+      mainTech: 'HTML5 & SASS',
       liveLink: '#',
       githubLink: '#',
       category: 'web',
       featured: false,
-      image: '/api/placeholder/600/400'
+      image: '/api/placeholder/600/400',
+      challenges: [
+        'Creating smooth scroll animations',
+        'Implementing responsive design',
+        'Optimizing loading performance'
+      ],
+      improvements: [
+        'Migrate to React.js with Framer Motion',
+        'Add dark mode toggle',
+        'Implement blog section'
+      ]
     }
   ];
 
