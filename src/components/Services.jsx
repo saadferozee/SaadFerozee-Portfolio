@@ -23,13 +23,13 @@ const Services = () => {
       technologies: ['React.js', 'Next.js', 'JavaScript', 'TypeScript'],
       color: 'from-blue-500 to-blue-600'
     },
-    // {
-    //   icon: FiLayers,
-    //   title: 'UI/UX Design',
-    //   description: 'Creating beautiful and intuitive user experiences with modern design principles and user-centered approach.',
-    //   technologies: ['Figma', 'Adobe XD', 'Tailwind CSS', 'CSS3'],
-    //   color: 'from-purple-500 to-purple-600'
-    // },
+    {
+      icon: FiLayers,
+      title: 'UI/UX Design',
+      description: 'Creating beautiful and intuitive user experiences with modern design principles and user-centered approach.',
+      technologies: ['Figma', 'Adobe XD', 'Tailwind CSS', 'CSS3'],
+      color: 'from-purple-500 to-purple-600'
+    },
     {
       icon: FiSmartphone,
       title: 'Responsive Design',

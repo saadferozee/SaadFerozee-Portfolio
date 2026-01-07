@@ -76,7 +76,7 @@ const Hero = () => {
             </h1>
           </motion.div>
 
-          {/* <motion.div
+          <motion.div
             variants={itemVariants}
             className="bg-white/80 backdrop-blur-sm p-10 rounded-3xl shadow-xl border border-gray-200/50 hover:shadow-2xl transition-shadow duration-300"
           >
@@ -95,7 +95,7 @@ const Hero = () => {
             </p>
 
             {/* Resume Download Button */}
-            {/* <motion.button
+            <motion.button
               onClick={handleDownloadResume}
               className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-2xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl text-lg font-semibold mb-6"
               whileHover={{ scale: 1.05 }}
@@ -104,7 +104,7 @@ const Hero = () => {
               <FiDownload className="mr-3" size={20} />
               Download Resume
             </motion.button>
-          </motion.div>  */}
+          </motion.div>
 
           {/* Social Links */}
           <motion.div
