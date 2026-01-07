@@ -36,11 +36,11 @@ const Skills = () => {
         { name: 'React.js', icon: FaReact, level: 85, color: 'text-blue-500' },
         { name: 'Next.js', icon: SiNextdotjs, level: 75, color: 'text-gray-900' },
         { name: 'JavaScript', icon: FaJs, level: 80, color: 'text-yellow-500' },
-        { name: 'TypeScript', icon: SiTypescript, level: 70, color: 'text-blue-600' },
+        // { name: 'TypeScript', icon: SiTypescript, level: 70, color: 'text-blue-600' },
         { name: 'HTML5', icon: FaHtml5, level: 90, color: 'text-orange-500' },
         { name: 'CSS3', icon: FaCss3Alt, level: 85, color: 'text-blue-600' },
         { name: 'Tailwind CSS', icon: SiTailwindcss, level: 90, color: 'text-cyan-500' },
-        { name: 'Bootstrap', icon: FaBootstrap, level: 80, color: 'text-purple-600' }
+        // { name: 'Bootstrap', icon: FaBootstrap, level: 80, color: 'text-purple-600' }
       ]
     },
     {
@@ -60,8 +60,8 @@ const Skills = () => {
         { name: 'Git', icon: FaGitAlt, level: 80, color: 'text-red-500' },
         { name: 'GitHub', icon: FaGithub, level: 85, color: 'text-gray-900' },
         { name: 'Figma', icon: FaFigma, level: 70, color: 'text-purple-500' },
-        { name: 'Redux', icon: SiRedux, level: 65, color: 'text-purple-600' },
-        { name: 'Postman', icon: SiPostman, level: 75, color: 'text-orange-500' }
+        // { name: 'Redux', icon: SiRedux, level: 65, color: 'text-purple-600' },
+        // { name: 'Postman', icon: SiPostman, level: 75, color: 'text-orange-500' }
       ]
     }
   ];
